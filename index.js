@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+var cors = require('cors')
 const port = 3000;
 
 const students = require('./models/students');
@@ -7,6 +8,7 @@ const sequelize = require('./models/index');
 const { Sequelize, DataTypes } = require('sequelize');
 
 const startServer = async() => {
+  app.use(cors())
   app.get('/', (req, res) => {
     res.send('Hello World Jakarta!')
   });
