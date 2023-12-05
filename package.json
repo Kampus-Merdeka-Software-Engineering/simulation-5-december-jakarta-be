@@ -4,7 +4,6 @@
   "description": "- students     - id     - nim     - name     - email",
   "main": "index.js",
   "scripts": {
-    "migrate": "sequelize-cli db:migrate",
     "start": "sequelize-cli db:migrate && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
