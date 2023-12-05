@@ -4,6 +4,7 @@
   "description": "- students     - id     - nim     - name     - email",
   "main": "index.js",
   "scripts": {
+    "migrate": "sequelize-cli db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "express": "^4.18.2",
     "mysql2": "^3.6.5",
     "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
   }
 }

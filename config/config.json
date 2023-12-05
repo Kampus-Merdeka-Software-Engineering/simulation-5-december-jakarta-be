@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "jakarta",
+    "database": "jakarta-db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "3316"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ggwp_yesterday",
+    "password": "7685db5617314a3181d59b47fc4a02bcaa785e1f",
+    "database": "ggwp_yesterday",
+    "host": "u5k.h.filess.io",
+    "dialect": "mysql",
+    "port": "3307"
+  }
+}
